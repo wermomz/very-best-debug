@@ -3,13 +3,13 @@ class UsersController < ApplicationController
   def index
     @users = User.all.order(:created_at)
 
-    render({ :template => "user/all_users.html.erb"})
+    render({ :template => "users_templates/all_users.html.erb"})
   end
   
   def show
     username = params.fetch("username")
     @user = User.where({ :username => username }).at(0)
-    render({ :template => "users/user_details.html.erb"})
+    render({ :template => "user_templates/user_details.html.erb"})
   end
   
   def create

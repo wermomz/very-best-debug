@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev-winter-20-very-best-debug
+image: jelaniwoods/appdev2020-very-best-debug
 
 tasks:
   - init: bin/setup

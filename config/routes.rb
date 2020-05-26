@@ -14,7 +14,4 @@ Rails.application.routes.draw do
   
   get("/insert_comment_record", { :controller => "comments", :action => "create" })
  
-   # =================================================
-  devise_for :admin_users, ActiveAdmin::Devise.config
-  ActiveAdmin.routes(self)
 end

@@ -3,14 +3,14 @@ class VenuesController < ApplicationController
   def index
     venues = venue.all.order(:created_at)
 
-    render({ :template => "venues/venue_list.html.erb" })
+    render({ :template => "venue_templates/venue_list.html.erb" })
   end
 
   def show
     venue_id = params.fetch("venue_id")
     venue = Venue.where({ :id => venue_id })
 
-    render({ :template => "venues/details.html.erb" })
+    render({ :template => "venue_templates/details.html.erb" })
   end
 
   def create

@@ -15,7 +15,7 @@ class User < ApplicationRecord
   end
 
   def commented_venues
-    venue_ids = self.comments.pluck(:venue_id)
+    venue_ids = self.comments.map_relation_to_array(:venue_id)
     return Venue.where({ :id => venue_ids }).distinct
   end
 end
