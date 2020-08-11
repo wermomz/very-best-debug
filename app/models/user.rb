@@ -11,11 +11,25 @@
 class User < ApplicationRecord
   
   def comments
-    return Comment.where({ :author_id => self.id })
+    my_id = self.id
+    matching_comments = Comment.where({ :author_id => my_id })
+    return matching_comments
   end
 
   def commented_venues
-    venue_ids = self.comments.map_relation_to_array(:venue_id)
-    return Venue.where({ :id => venue_ids }).distinct
+
+    my_comments = self.comments
+    
+    array_of_venue_ids = Array.new
+
+    my_comments.each do |a_comment|
+      array_of_venue_ids.push(a_comment.venue_id)
+    end
+
+    matching_venues = Venue.where({ :id => array_of_venue_ids })
+
+    unique_matching_venues = matching_venues.distinct
+
+    return unique_matching_venues
   end
 end

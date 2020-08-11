@@ -13,6 +13,8 @@
 class Venue < ApplicationRecord
 
   def comments
-    return Comment.where({ :venue_id => self.id })
+    my_id = self.id
+    matching_comments = Comment.where({ :venue_id => my_id })
+    return matching_comments
   end
 end
