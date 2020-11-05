@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2020-very-best-debug-summer
+image: patrickmckernin/very-best-debug2020
 
 tasks:
   - init: bin/setup
