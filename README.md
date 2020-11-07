@@ -21,108 +21,108 @@ Here is the [target app](http://very-best-debug.matchthetarget.com/)
 <details>
   <summary>Click here to see names of each test</summary>
 
-/users has a functional Route Controller Action View 
+<li>/users has a functional Route Controller Action View </li>
 
-Home page is the same page as the /users page 
+<li>Home page is the same page as the /users page </li>
 
-/users displays each User record in a tr html element 
+<li>/users displays each User record in a tr html element </li>
 
-/users displays a link to each User's details page 
+<li>/users displays a link to each User's details page </li>
 
-/users has one form to add a new User 
+<li>/users has one form to add a new User </li>
 
-/users has a label with the text 'Username' 
+<li>/users has a label with the text 'Username' </li>
 
-/users has a button with the text 'Add user' 
+<li>/users has a button with the text 'Add user' </li>
 
-/users displays the usernames of all users 
+<li>/users displays the usernames of all users </li>
 
-/users Add user form creates a user record when the form is submitted 
+<li>/users Add user form creates a user record when the form is submitted </li>
 
-/users Add user form saves the username when submitted
+<li>/users Add user form saves the username when submitted </li>
 
-/users Add user form redirects to /users/[USERNAME] page when submitted
+<li>/users Add user form redirects to /users/[USERNAME] page when submitted </li>
 
-/users/[username] has a functional Route Controller Action View
+<li>/users/[username] has a functional Route Controller Action View </li>
 
-/users/[username] displays the username of the user
+<li>/users/[username] displays the username of the user </li>
 
-/users/[username] has a label for 'Username', with text: 'Username'
+<li>/users/[username] has a label for 'Username', with text: 'Username' </li>
 
-/users/[username] has a button with text, 'Update user'
+<li>/users/[username] has a button with text, 'Update user' </li>
 
-/users/[username] has username prepopulated in an input element
+<li>/users/[username] has username prepopulated in an input element </li>
 
-/users/[USERNAME] Update user form updates username when submitted
+<li>/users/[USERNAME] Update user form updates username when submitted </li>
 
-/users/[USERNAME] Update user form redirects to /users/[USERNAME] page
+<li>/users/[USERNAME] Update user form redirects to /users/[USERNAME] page </li>
 
-/venues has a functional Route Controller Action View
+<li>/venues has a functional Route Controller Action View </li>
 
-/venues has a form
+<li>/venues has a form </li>
 
-/venues has a label for 'Address' with text: 'Address'
+<li>/venues has a label for 'Address' with text: 'Address' </li>
 
-/venues has a label for 'Name' with text: 'Name'
+<li>/venues has a label for 'Name' with text: 'Name' </li>
 
-/venues has a label for 'Neighborhood' with text: 'Neighborhood'
+<li>/venues has a label for 'Neighborhood' with text: 'Neighborhood' </li>
 
-/venues has 3 input elements (one for address, name, & neighborhood)
+<li>/venues has 3 input elements (one for address, name, & neighborhood) </li>
 
-/venues has a button with text 'Add venue'
+<li>/venues has a button with text 'Add venue' </li>
 
-/venues creates a venue when 'Add venue' form is submitted
+<li>/venues creates a venue when 'Add venue' form is submitted </li>
 
-/venues saves the name when 'Add venue' form is submitted
+<li>/venues saves the name when 'Add venue' form is submitted </li>
 
-/venues saves the address when 'Add venue' form is submitted
+<li>/venues saves the address when 'Add venue' form is submitted </li>
 
-/venues 'Add venue' form redirects to /venues/[venue ID] when submitted
+<li>/venues 'Add venue' form redirects to /venues/[venue ID] when submitted </li>
 
-/venues/[ID] displays the name of the venue
+<li>/venues/[ID] displays the name of the venue </li>
 
-/venues/[ID] displays the comments that have been made on the venue
+<li>/venues/[ID] displays the comments that have been made on the venue </li>
 
-/venues/[ID] displays the usernames of the commenters of the venue
+<li>/venues/[ID] displays the usernames of the commenters of the venue </li>
 
-/delete_venue/[venue ID] removes a record from the venue table
+<li>/delete_venue/[venue ID] removes a record from the venue table </li>
 
-/delete_venue/[venue ID] redirects to /venues
+<li>/delete_venue/[venue ID] redirects to /venues </li>
 
-/venues/[ID] has at least one form
+<li>/venues/[ID] has at least one form </li>
 
-/venues/[ID] has all required forms (Edit venue and New Comment)
+<li>/venues/[ID] has all required forms (Edit venue and New Comment) </li>
 
-/venues/[ID] has a label with text 'Address'
+<li>/venues/[ID] has a label with text 'Address' </li>
 
-/venues/[ID] has a label with text 'Name'
+<li>/venues/[ID] has a label with text 'Name' </li>
 
-/venues/[ID] has one textarea for comment
+<li>/venues/[ID] has one textarea for comment </li>
 
-/venues/[ID] has a button with text 'Update venue'
+<li>/venues/[ID] has a button with text 'Update venue' </li>
 
-/venues/[ID] 'Update venue' form has address prepopulated in an input element
+<li>/venues/[ID] 'Update venue' form has address prepopulated in an input element </li>
 
-/venues/[ID] 'Update venue' form has neighborhood prepopulated in an input element
+<li>/venues/[ID] 'Update venue' form has neighborhood prepopulated in an input element </li>
 
-/venues/[ID] 'Update venue' form has name prepopulated in an input element
+<li>/venues/[ID] 'Update venue' form has name prepopulated in an input element </li>
 
-/venues/[ID] 'Update venue' form updates name when submitted
+<li>/venues/[ID] 'Update venue' form updates name when submitted </li>
 
-/venues/[ID] 'Update venue' form updates the venue's address column when submitted
+<li>/venues/[ID] 'Update venue' form updates the venue's address column when submitted </li>
 
-/venues/[ID] 'Update venue' form redirects to the venue's details page when updating venue
+<li>/venues/[ID] 'Update venue' form redirects to the venue's details page when updating venue </li>
 
-/venues/[ID] — Add comment form has a label with text 'Author ID'
+<li>/venues/[ID] — Add comment form has a label with text 'Author ID' </li>
 
-/venues/[ID] — Add comment form has a label with text 'Comment'
+<li>/venues/[ID] — Add comment form has a label with text 'Comment' </li>
 
-/venues/[ID] — Add comment form has a textarea for the comment
+<li>/venues/[ID] — Add comment form has a textarea for the comment </li>
 
-/venues/[ID] — Add comment form has a button with text 'Add comment'
+<li>/venues/[ID] — Add comment form has a button with text 'Add comment' </li>
 
-/venues/[ID] — Add comment form creates a new comment record when submitted
+<li>/venues/[ID] — Add comment form creates a new comment record when submitted </li>
 
-/venues/[ID] — Add comment form redirects to /venues/[ID] when creating new comment
+<li>/venues/[ID] — Add comment form redirects to /venues/[ID] when creating new comment </li>
 
 </details>
